@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  pingvin-share:
+  share-it:
     image: jordanm88/share-it:v0.0.1-beta
     restart: unless-stopped
     ports:
