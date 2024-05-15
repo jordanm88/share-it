@@ -4,7 +4,7 @@ services:
     image: jordanm88/share-it:v0.0.1-beta
     restart: unless-stopped
     ports:
-      - 5432:5432
+      - 3000:3000
     volumes:
       - "./data:/opt/app/backend/data"
       - "./data/images:/opt/app/frontend/public/img"
